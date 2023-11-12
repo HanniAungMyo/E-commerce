@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Category-btn{
+@apply duration-300 transition-colors
+}
+
+.Category-btn.active{
+    @apply bg-neutral-600 text-neutral-300
+}
